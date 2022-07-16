@@ -20,6 +20,9 @@
         "noEmit": true,
         "jsx": "react-jsx",
     },
+    "resolve": {
+        "extensions": [".ts", ".tsx", ".js", ".css", ".scss"]
+    },
     "include": [
         "src",
     ],
