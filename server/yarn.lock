@@ -4516,6 +4516,11 @@ ts-node@^10.0.0:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
+ts-transformer-keys@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/ts-transformer-keys/-/ts-transformer-keys-0.3.5.tgz#e9683fdb43e7a0b7b13bce910a546380fd7ac7ee"
+  integrity sha512-5NYR//bSkMjeO6P72Nn754MW8ELHx7fIueQ7W8F52ErPb7iCDMU/tBiXHpNsUCDOLFKNca3DSgyq4CX+BxANug==
+
 tsconfig-paths-webpack-plugin@3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/tsconfig-paths-webpack-plugin/-/tsconfig-paths-webpack-plugin-3.5.2.tgz#01aafff59130c04a8c4ebc96a3045c43c376449a"

@@ -1,12 +1,11 @@
 import { Logger, Module } from "@nestjs/common";
 import { DatabaseService } from "./database.service";
-import { databasePoolFactory } from "./utils";
+import { databasePoolFactory } from "./helpers/utils";
 import { ConfigService } from "@nestjs/config";
 import { DATABASE_POOL } from "./consts";
 import { ModuleRef } from "@nestjs/core";
 import { Pool } from "pg";
-import { getShutDownOnExitMessage } from "./logger.messages";
-import { DatabaseController } from './database.controller';
+import { getShutDownOnExitMessage } from "./helpers/messages";
 
 @Module({
     providers: [
@@ -17,7 +16,7 @@ import { DatabaseController } from './database.controller';
         },
         DatabaseService,
     ],
-    controllers: [DatabaseController],
+    exports: [DatabaseService],
 })
 export class DatabaseModule {
     private readonly logger = new Logger(DatabaseModule.name);
