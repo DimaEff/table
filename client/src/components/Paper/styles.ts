@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BORDER_RADIUS, PALETTE } from "@shared/themeConsts";
+import { PALETTE } from "@shared/themeConsts";
 
 export const PaperContainer = styled.div`
     display: flex;
@@ -7,7 +7,7 @@ export const PaperContainer = styled.div`
     width: 800px;
     max-height: 80vh;
     min-height: 400px;
-    background-color: ${PALETTE.PRIMARY_BACKGROUND_COLOR};
-    border-radius: ${BORDER_RADIUS};
+    background-color: ${PALETTE.BACKGROUND.PRIMARY};
+    border-radius: 16px;
     padding: 8px;
 `;

@@ -7,5 +7,5 @@ export const AppWrapper = styled.div`
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: ${PALETTE.SECONDARY_BACKGROUND_COLOR};
+    background-color: ${PALETTE.BACKGROUND.SECONDARY};
 `;
