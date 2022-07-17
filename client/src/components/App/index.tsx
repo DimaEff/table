@@ -9,11 +9,11 @@ function App() {
     return (
         <AppWrapper>
             <div>
-                <Paper>123</Paper>
+                <Paper width={"600px"} height={"200px"}>123</Paper>
                 <Input
-                    value={value}
+                    value={"value"}
+                    readOnly
                     placeholder={"Search"}
-                    setValue={setValue}
                 />
             </div>
         </AppWrapper>
